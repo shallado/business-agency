@@ -1,0 +1,44 @@
+/* line 1, sass/base/_base.scss */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/* line 9, sass/base/_base.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 13, sass/base/_base.scss */
+body {
+  box-sizing: border-box;
+  color: #757575;
+  font-family: Arial;
+  line-height: 1.7; }
+
+/* line 1, sass/components/_navbar.scss */
+.navbar {
+  padding: 4rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  /* line 8, sass/components/_navbar.scss */
+  .navbar__container {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center; }
+  /* line 15, sass/components/_navbar.scss */
+  .navbar__icon {
+    height: 3rem;
+    width: 3rem; }
+    /* line 19, sass/components/_navbar.scss */
+    .navbar__icon--one {
+      fill: #2b3a37;
+      transform: rotate(90deg); }
+    /* line 24, sass/components/_navbar.scss */
+    .navbar__icon--two {
+      fill: #55e6de; }
+    /* line 28, sass/components/_navbar.scss */
+    .navbar__icon--three {
+      fill: #e1e9e7; }
